@@ -25,7 +25,7 @@ public class BrowserCommands {
 	    String page_source=	driver.getPageSource();
 	    System.out.println("The page source: "+page_source);
 	    //Closing the window
-	    driver.close();//
+	    driver.close();//Closes the current browser on which we are working
 
 	}
 
